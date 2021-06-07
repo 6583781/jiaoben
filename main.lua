@@ -98,9 +98,9 @@ while true do
 										95, 0, 0, 0)
 									print("弹出下载页面关闭完成2不需要等候")
 									if x > -1 then
-										touchDown(1, 60, 150)
+										touchDown(1, 60, 97)
 										mSleep(50)
-										touchUp(1, 60, 150)
+										touchUp(1, 60, 97)
 										mSleep(100)
 										mSleep(10000)
 									else
