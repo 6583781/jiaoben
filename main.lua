@@ -1,6 +1,6 @@
 init("0", 0); --以当前应用 Home 键在右边初始化
 function 点击(x,y)
-	x = x + math.random(-150,50)
+	x = x + math.random(-50,50)
 	y = y + math.random(-50,50)
 	touchDown(1, x, y)
 	mSleep(50)
