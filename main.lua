@@ -1,4 +1,4 @@
-init("0", 1); --以当前应用 Home 键在右边初始化
+init("0", 0); --以当前应用 Home 键在右边初始化
 
 
 function tap(x,y)
