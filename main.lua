@@ -159,7 +159,9 @@ while true do
 															mSleep(50)
 															touchUp(1, 60, 150)
 															mSleep(100)
-															mSleep(10000)
+															touchDown(1, 66, 99)
+															mSleep(50)
+															touchUp(1, 66, 99)
 														else
 															x, y = findColor({659, 333, 713, 388},
 																"0|0|0xffffff,1|0|0xa6bfdd,2|0|0x556e8c,4|0|0x0c7ef9,6|0|0xa4ffff,5|0|0x349aff,7|0|0xe4f0fe",
